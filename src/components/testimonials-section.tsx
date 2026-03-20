@@ -4,24 +4,24 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 const testimonials = [
   {
     name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
+    role: "Директор нейронауки, Quantum Dynamics",
     avatar: "/professional-woman-scientist.png",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "После внедрения SynapseAI результаты реабилитации пациентов с параплегией выросли на 340%. Это не просто инструмент — это прорыв.",
   },
   {
     name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    role: "Главный исследователь, NeuroLab EU",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Протоколы безопасности и клиническая точность SynapseAI вывели наши испытания на новый уровень. Ни одна система не дала такого результата.",
   },
   {
     name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    role: "Нейрохирург, Центр передовой медицины",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Имплантация заняла 2 часа, а уже на третий день пациент управлял протезом силой мысли. Адаптивный ИИ понимает намерения лучше, чем я ожидала.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Говорят те, кто проверил на практике</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Учёные, врачи и исследователи, которые уже работают с SynapseAI
           </p>
         </div>
 
